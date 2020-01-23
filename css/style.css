@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.bg-blue {
+    background-color: #0d325a;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#logo {
+    float: left;
+}
+
+header {
+    height: 70px;
+    padding: 10px;
+    line-height: 50px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+header img {
+    margin-right: 50px;
+}
+
+#navbar {
+    float: left;
+    line-height: 50px;
+}
+
+#navbar li {
+    margin: 0 5px;
+    list-style: none;
+    float: left;
+}
+/* INIZIO HEADER */
+header a,
+header button {
+    font-size: 11px;
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    color: orange;
+}
+
+.cta-container {
+    float: right;
+}
+
+.cta-container a {
+    color: #999999;
+}
+
+button {
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+#login-button {
+    background-color: #0d325a;
+    border: 1px solid #4783ad;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.btn-green {
+    color: white;
+    font-weight: 700;
+    background-color: #7fb802;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-small {
+    padding: 10px 20px;
+}
+
+.btn-big {
+    font-size: 15px;
+    padding: 12px 24px;
+}
+/* FINE HEADER */
+.banner {
+    height: 400px;
+    position: relative;
+}
+
+.banner img {
+    width: 800px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: translateX(25%);
+}
+
+.jumbotron {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.bg-gray {
+    background-color: #f9f9f9;
+}
+
+.bg-gray .container {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.bg-gray h2 {
+    color: #373a3c;
+    font-weight: lighter;
+}
+.bg-gray p {
+    color: #999999;
+    font-weight: lighter;
+}
+
+.card {
+    width: 33.3333%;
+    float: left;
+    text-align: center;
+    padding: 10px;
+}
+
+.card img {
+    height: 160px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    color: #7fb802;
+}
+
+.card hr {
+    width: 50px;
+    margin: 20px auto;
+}
+
+.card p {
+    color: #999999;
+}
+
+.bg-white .container {
+}
