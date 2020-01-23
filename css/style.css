@@ -58,7 +58,7 @@ header img {
     list-style: none;
     float: left;
 }
-/* INIZIO HEADER */
+
 header a,
 header button {
     font-size: 11px;
@@ -106,7 +106,7 @@ button {
     font-size: 15px;
     padding: 12px 24px;
 }
-/* FINE HEADER */
+
 .banner {
     height: 400px;
     position: relative;
